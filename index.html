@@ -4,12 +4,13 @@
 <head>
 
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>Happy Birthday To Lara</title>
   <!--我大概是把技术都用在泡妞上了吧 2016.5.14-->
 
   <link rel="stylesheet" href="css/reset.css">
-
+ 	<link rel="stylesheet" href="css/animate.min.css" />
   <link rel="stylesheet" href="css/style.css" media="screen" type="text/css" />
 
  	<!--  加载fullpage.js -->
@@ -19,48 +20,104 @@
 <body>
 <div id="fullpage">
 	
-	<div class="section">
+	<div id="firstsection" class="section">
 		<div class="velas">
 		    <div class="fuego"></div>
 		    <div class="fuego"></div>
 		    <div class="fuego"></div>
 		    <div class="fuego"></div>
 		    <div class="fuego"></div>
-	</div>
+		</div>
 		
 	<embed id="cake" src="cake.svg" width="200px" height="500px" type="image/svg+xml" pluginspage="http://www.adobe.com/svg/viewer/install/" />
-			
-	
-	<div class="text">
-		  <h1>happy birthday!</h1>
-		  <p>Lara</p>
+	<!--	<object id="cake" data="cake.svg" width="200px" height="500px" type="image/svg+xml" codebase="http://www.adobe.com/svg/viewer/install/" />
+-->	
+		<div class="text">
+			  <h1>happy birthday!</h1>
+			  <p>Lara</p>
 		</div>
-		<div style="text-align:center;clear:both">
-		<!-- <script src="/gg_bd_ad_720x90.js" type="text/javascript"></script>
-		<script src="/follow.js" type="text/javascript"></script> -->
-		</div>
+		
 	</div>
+	
+  <!--第二个section-->
 	<div class="section">
-		<h1>这是第二个页面</h1>
+		
+	
+		<div class="text">
+			
+			 <h1>5月17号是你的<em>生日</em></h1>
+			 <p>同时，我<del>正式</del>成为你的男朋友已经一年了哦</p>
+		</div>
+		<div id="boyfriend"></div>
+	</div>
+	
+	<!--第三个section-->
+	<div class="section">
+		
+		<div class="text">
+			<h1>这一年来，发生了许多事情呢...</h1>
+			<p>无论是一起学习还是玩耍，都是宝贵的时光</p>
+		</div>
+		<div style="padding: 1em 20%;">
+			<div id="book"></div>
+			<div id="psp"></div>
+		</div>
+		
+	</div>
+	
+	<!--第四个section-->
+	<div class="section">
+		<div class="text">
+			<h1>请热爱生活、热爱自己</h1>
+			<div id="lara"></div>
+		</div>
 	</div>
 	
 	
-</div>  
+	<!--第五个section-->
+	<div class="section">
+		<div class="text">
+			<h1>总之希望你在接下来的日子里</h1>
+			<p>勇敢自信地前行下去！</p>
+			<p><img id="lara_archer" src="photo/IMG_20160305_183003.jpg"></p>
+		</div>
+		
+	</div>		
+	
+	<!--第六个section-->
+	<div class="section">
+		<div class="text">
+			<h1>下面是我给你唱的生日歌哦</h1>
+			<audio id="song" src="song.m4a" controls="controls"></audio>
+		</div>
+	</div>
+	
+	<!--隐藏彩蛋？-->
+	<div class="section fp-auto-height final_section">
+		<div >
+			<h1><del>彩蛋</del></h1>
+			<p>好啦，我知道我画的丑啦</p>
+			
+		
+		</div>
+	</div>
+	  
+		
+ </div>  
 	
 	
-<!-- 这是v1.11.0的jquery -->
+	<!-- 这是v1.11.0的jquery -->
   <script src='js/jquery.js'></script>
-
-  <script src="js/index.js"></script>
-
-  <!-- This following line is optional. Only necessary if you use the option css3:false and you want to use other easing effects rather than "linear", "swing" or "easeInOutCubic". -->
-  <script src="vendors/jquery.easings.min.js"></script>
- 
-
-<!-- This following line is only necessary in the case of using the plugin option `scrollOverflow:true` -->
- <script type="text/javascript" src="vendors/jquery.slimscroll.min.js"></script>
- 
   <script type="text/javascript" src="js/jquery.fullPage.js"></script>
+	<script src="js/jquery.lazylinepainter-1.7.0.min.js"></script>
+  <script type="text/javascript" src="js/svg.js"></script>  
+  <script type="text/javascript" src="js/index.js"></script>
+  <!-- This following line is optional. Only necessary if you use the option css3:false and you want to use other easing effects rather than "linear", "swing" or "easeInOutCubic". -->
+	<!--  <script src="vendors/jquery.easings.min.js"></script>-->
+	<!-- This following line is only necessary in the case of using the plugin option `scrollOverflow:true` -->
+	<!-- <script type="text/javascript" src="vendors/jquery.slimscroll.min.js"></script>-->
+	 
+
 
 
 
