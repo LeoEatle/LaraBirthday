@@ -24,7 +24,7 @@ $(document).ready(function()
 		}
 		
 		//获取windows的高度确定蜡烛的高度，对不同屏幕适配
-		var velas_top = window.screen.height * 0.5 - 130;
+		var velas_top = window.screen.height * 0.5 - 110;
 		console.log(velas_top);
 		//修改蜡烛的高度
 		$('.velas').css(
